@@ -1,0 +1,28 @@
+  /* Cambiar el ancho de la barra de desplazamiento */
+  ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      /* Ancho en navegadores basados en WebKit (como Chrome y Safari) */
+  }
+
+  /* Cambiar el color de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+      background-color: #1A5276;
+      /* Color de la barra de desplazamiento en navegadores basados en WebKit */
+  }
+
+  /* Cambiar el color del fondo de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+      background-color: #f0f0f0;
+      /* Color del fondo de la barra de desplazamiento en navegadores basados en WebKit */
+  }
+
+  /* Cambiar el ancho de la barra de desplazamiento en Firefox */
+  /* Ten en cuenta que en Firefox, solo se puede cambiar el ancho, no el color */
+  /* Esto puede cambiar en futuras versiones de Firefox */
+  * {
+      scrollbar-width: thin;
+      /* Ancho de la barra de desplazamiento en Firefox */
+      scrollbar-color: #1A5276 #f0f0f0;
+      /* Color de la barra de desplazamiento y el fondo en Firefox */
+  }

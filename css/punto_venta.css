@@ -1,0 +1,38 @@
+.card-header {
+    /* letra negrita */
+    font-weight: bold;
+    font-size: 24px;
+    color: #1A5276 !important;
+}
+
+.tabla-contenedor2 {
+    /* Ancho deseado para el contenedor */
+    height: 330px;
+    /* Altura deseada para el contenedor */
+    overflow: auto;
+    /* Esto agregará barras de desplazamiento si es necesario */
+}
+
+table {
+    width: 100%;
+    /* Asegúrate de que la tabla ocupe todo el ancho del contenedor */
+    border-collapse: collapse;
+    /* Estilo de borde */
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* Estilo de fondo de la cabecera */
+    /* Otras reglas de estilo para la cabecera de la tabla, como colores, bordes, etc. */
+}
+
+.tabla-contenedor {
+    font-size: 12px !important;
+    /* Ancho deseado para el contenedor */
+    height: 150px;
+    /* Altura deseada para el contenedor */
+    overflow: auto;
+    /* Esto agregará barras de desplazamiento si es necesario */
+}
